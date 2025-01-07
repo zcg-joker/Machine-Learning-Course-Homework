@@ -1,0 +1,1014 @@
+2025-01-05 11:18:06,398 - name_generator - INFO - 开始reverse模型训练...
+2025-01-05 11:18:06,398 - name_generator - INFO - 
+训练参数:
+2025-01-05 11:18:06,398 - name_generator - INFO - model_type: reverse
+2025-01-05 11:18:06,398 - name_generator - INFO - hidden_size: 32
+2025-01-05 11:18:06,398 - name_generator - INFO - n_layers: 3
+2025-01-05 11:18:06,398 - name_generator - INFO - bidirectional: False
+2025-01-05 11:18:06,398 - name_generator - INFO - batch_size: 16
+2025-01-05 11:18:06,398 - name_generator - INFO - n_epochs: 200
+2025-01-05 11:18:06,398 - name_generator - INFO - learning_rate: 0.0001
+2025-01-05 11:18:06,398 - name_generator - INFO - device: cuda:1
+2025-01-05 11:18:06,398 - name_generator - INFO - 
+加载数据...
+2025-01-05 11:18:06,406 - name_generator - INFO - 总名字数量: 4341
+2025-01-05 11:18:06,406 - name_generator - INFO - 有效名字数量: 4332
+2025-01-05 11:18:06,407 - name_generator - INFO - 无效名字数量: 9
+2025-01-05 11:18:06,407 - name_generator - INFO - 部分无效名字示例:
+2025-01-05 11:18:06,407 - name_generator - INFO -   - Chloë
+2025-01-05 11:18:06,407 - name_generator - INFO -   - D'Arcy
+2025-01-05 11:18:06,407 - name_generator - INFO -   - Esmé
+2025-01-05 11:18:06,407 - name_generator - INFO -   - Esmée
+2025-01-05 11:18:06,407 - name_generator - INFO -   - Jo-Anne
+2025-01-05 11:18:06,407 - name_generator - INFO - 字符表大小: 28
+2025-01-05 11:18:06,407 - name_generator - INFO - 
+数据示例:
+2025-01-05 11:18:06,407 - name_generator - INFO - 示例 1: madlyn
+2025-01-05 11:18:06,407 - name_generator - INFO - 反向后: nyldam
+2025-01-05 11:18:06,407 - name_generator - INFO - 示例 2: laurena
+2025-01-05 11:18:06,407 - name_generator - INFO - 反向后: anerual
+2025-01-05 11:18:06,407 - name_generator - INFO - 示例 3: charleen
+2025-01-05 11:18:06,407 - name_generator - INFO - 反向后: neelrahc
+2025-01-05 11:18:06,407 - name_generator - INFO - 示例 4: vikki
+2025-01-05 11:18:06,407 - name_generator - INFO - 反向后: ikkiv
+2025-01-05 11:18:06,407 - name_generator - INFO - 示例 5: kiersten
+2025-01-05 11:18:06,407 - name_generator - INFO - 反向后: netsreik
+2025-01-05 11:18:06,407 - name_generator - INFO - 
+创建模型...
+2025-01-05 11:18:06,434 - name_generator - INFO - 
+划分数据集...
+2025-01-05 11:18:06,437 - name_generator - INFO - 训练集大小: 3465
+2025-01-05 11:18:06,437 - name_generator - INFO - 验证集大小: 433
+2025-01-05 11:18:06,437 - name_generator - INFO - 测试集大小: 434
+2025-01-05 11:18:08,705 - name_generator - INFO - 初始化训练器 - 模型参数数量: 27164
+2025-01-05 11:18:08,707 - name_generator - INFO - 使用反向数据进行训练...
+2025-01-05 11:18:08,707 - name_generator - INFO - 开始训练...
+2025-01-05 11:18:08,707 - name_generator - INFO - 训练集大小: 3465
+2025-01-05 11:18:08,707 - name_generator - INFO - 验证集大小: 433
+2025-01-05 11:18:08,707 - name_generator - INFO - 
+Epoch 1/200
+2025-01-05 11:18:11,820 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:11,820 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:11,820 - name_generator - INFO - Epoch 1 - Train Loss: 3.1929, Train Acc: 0.0047, Val Loss: 2.8462, Val Acc: 0.0000
+2025-01-05 11:18:11,820 - name_generator - INFO - 
+Epoch 2/200
+2025-01-05 11:18:13,163 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:13,163 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:13,163 - name_generator - INFO - Epoch 2 - Train Loss: 2.5872, Train Acc: 0.0000, Val Loss: 2.5608, Val Acc: 0.0000
+2025-01-05 11:18:13,163 - name_generator - INFO - 
+Epoch 3/200
+2025-01-05 11:18:14,513 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:14,513 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:14,513 - name_generator - INFO - Epoch 3 - Train Loss: 2.4418, Train Acc: 0.0000, Val Loss: 2.4433, Val Acc: 0.0000
+2025-01-05 11:18:14,513 - name_generator - INFO - 
+Epoch 4/200
+2025-01-05 11:18:15,852 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:15,852 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:15,852 - name_generator - INFO - Epoch 4 - Train Loss: 2.3181, Train Acc: 0.0678, Val Loss: 2.3159, Val Acc: 0.1131
+2025-01-05 11:18:15,852 - name_generator - INFO - 
+Epoch 5/200
+2025-01-05 11:18:17,240 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:17,240 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:17,240 - name_generator - INFO - Epoch 5 - Train Loss: 2.2247, Train Acc: 0.1812, Val Loss: 2.2191, Val Acc: 0.2185
+2025-01-05 11:18:17,240 - name_generator - INFO - 
+Epoch 6/200
+2025-01-05 11:18:18,603 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:18,603 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:18,603 - name_generator - INFO - Epoch 6 - Train Loss: 2.1469, Train Acc: 0.2165, Val Loss: 2.1528, Val Acc: 0.2289
+2025-01-05 11:18:18,603 - name_generator - INFO - 
+Epoch 7/200
+2025-01-05 11:18:19,983 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:19,983 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:19,983 - name_generator - INFO - Epoch 7 - Train Loss: 2.0874, Train Acc: 0.2176, Val Loss: 2.1061, Val Acc: 0.2199
+2025-01-05 11:18:19,983 - name_generator - INFO - 
+Epoch 8/200
+2025-01-05 11:18:21,363 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:21,363 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:21,363 - name_generator - INFO - Epoch 8 - Train Loss: 2.0529, Train Acc: 0.2176, Val Loss: 2.0723, Val Acc: 0.2256
+2025-01-05 11:18:21,363 - name_generator - INFO - 
+Epoch 9/200
+2025-01-05 11:18:22,734 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:22,734 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:22,734 - name_generator - INFO - Epoch 9 - Train Loss: 2.0200, Train Acc: 0.2180, Val Loss: 2.0476, Val Acc: 0.2226
+2025-01-05 11:18:22,734 - name_generator - INFO - 
+Epoch 10/200
+2025-01-05 11:18:24,115 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:24,115 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:24,115 - name_generator - INFO - Epoch 10 - Train Loss: 1.9946, Train Acc: 0.2187, Val Loss: 2.0284, Val Acc: 0.2222
+2025-01-05 11:18:24,115 - name_generator - INFO - 
+Epoch 11/200
+2025-01-05 11:18:25,466 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:25,466 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:25,466 - name_generator - INFO - Epoch 11 - Train Loss: 1.9696, Train Acc: 0.2186, Val Loss: 2.0124, Val Acc: 0.2232
+2025-01-05 11:18:25,466 - name_generator - INFO - 
+Epoch 12/200
+2025-01-05 11:18:26,818 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:26,818 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:26,818 - name_generator - INFO - Epoch 12 - Train Loss: 1.9643, Train Acc: 0.2205, Val Loss: 1.9968, Val Acc: 0.2306
+2025-01-05 11:18:26,818 - name_generator - INFO - 
+Epoch 13/200
+2025-01-05 11:18:28,184 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:28,184 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:28,184 - name_generator - INFO - Epoch 13 - Train Loss: 1.9526, Train Acc: 0.2214, Val Loss: 1.9824, Val Acc: 0.2309
+2025-01-05 11:18:28,184 - name_generator - INFO - 
+Epoch 14/200
+2025-01-05 11:18:29,539 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:29,539 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:29,539 - name_generator - INFO - Epoch 14 - Train Loss: 1.9207, Train Acc: 0.2281, Val Loss: 1.9676, Val Acc: 0.2463
+2025-01-05 11:18:29,539 - name_generator - INFO - 
+Epoch 15/200
+2025-01-05 11:18:30,900 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:30,900 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:30,900 - name_generator - INFO - Epoch 15 - Train Loss: 1.9186, Train Acc: 0.2410, Val Loss: 1.9531, Val Acc: 0.2550
+2025-01-05 11:18:30,900 - name_generator - INFO - 
+Epoch 16/200
+2025-01-05 11:18:32,256 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:32,256 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:32,256 - name_generator - INFO - Epoch 16 - Train Loss: 1.9089, Train Acc: 0.2504, Val Loss: 1.9376, Val Acc: 0.2600
+2025-01-05 11:18:32,256 - name_generator - INFO - 
+Epoch 17/200
+2025-01-05 11:18:33,631 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:33,631 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:33,631 - name_generator - INFO - Epoch 17 - Train Loss: 1.9035, Train Acc: 0.2591, Val Loss: 1.9227, Val Acc: 0.2778
+2025-01-05 11:18:33,631 - name_generator - INFO - 
+Epoch 18/200
+2025-01-05 11:18:34,993 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:34,993 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:34,993 - name_generator - INFO - Epoch 18 - Train Loss: 1.8777, Train Acc: 0.2654, Val Loss: 1.9092, Val Acc: 0.2741
+2025-01-05 11:18:34,993 - name_generator - INFO - 
+Epoch 19/200
+2025-01-05 11:18:36,347 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:36,347 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:36,347 - name_generator - INFO - Epoch 19 - Train Loss: 1.8829, Train Acc: 0.2624, Val Loss: 1.9014, Val Acc: 0.2741
+2025-01-05 11:18:36,347 - name_generator - INFO - 
+Epoch 20/200
+2025-01-05 11:18:37,708 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:37,708 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:37,708 - name_generator - INFO - Epoch 20 - Train Loss: 1.8550, Train Acc: 0.2649, Val Loss: 1.8861, Val Acc: 0.2724
+2025-01-05 11:18:37,708 - name_generator - INFO - 
+Epoch 21/200
+2025-01-05 11:18:39,070 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:39,070 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:39,070 - name_generator - INFO - Epoch 21 - Train Loss: 1.8405, Train Acc: 0.2642, Val Loss: 1.8736, Val Acc: 0.2754
+2025-01-05 11:18:39,070 - name_generator - INFO - 
+Epoch 22/200
+2025-01-05 11:18:40,451 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:40,451 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:40,451 - name_generator - INFO - Epoch 22 - Train Loss: 1.8268, Train Acc: 0.2664, Val Loss: 1.8631, Val Acc: 0.2784
+2025-01-05 11:18:40,451 - name_generator - INFO - 
+Epoch 23/200
+2025-01-05 11:18:41,830 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:41,830 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:41,830 - name_generator - INFO - Epoch 23 - Train Loss: 1.8200, Train Acc: 0.2666, Val Loss: 1.8532, Val Acc: 0.2774
+2025-01-05 11:18:41,830 - name_generator - INFO - 
+Epoch 24/200
+2025-01-05 11:18:43,210 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:43,211 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:43,211 - name_generator - INFO - Epoch 24 - Train Loss: 1.8082, Train Acc: 0.2678, Val Loss: 1.8438, Val Acc: 0.2764
+2025-01-05 11:18:43,211 - name_generator - INFO - 
+Epoch 25/200
+2025-01-05 11:18:44,610 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:44,610 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:44,610 - name_generator - INFO - Epoch 25 - Train Loss: 1.7897, Train Acc: 0.2682, Val Loss: 1.8365, Val Acc: 0.2751
+2025-01-05 11:18:44,610 - name_generator - INFO - 
+Epoch 26/200
+2025-01-05 11:18:45,994 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:45,994 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:45,994 - name_generator - INFO - Epoch 26 - Train Loss: 1.7959, Train Acc: 0.2692, Val Loss: 1.8264, Val Acc: 0.2768
+2025-01-05 11:18:45,994 - name_generator - INFO - 
+Epoch 27/200
+2025-01-05 11:18:47,373 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:47,373 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:47,373 - name_generator - INFO - Epoch 27 - Train Loss: 1.7844, Train Acc: 0.2706, Val Loss: 1.8192, Val Acc: 0.2754
+2025-01-05 11:18:47,373 - name_generator - INFO - 
+Epoch 28/200
+2025-01-05 11:18:48,647 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:48,647 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:48,647 - name_generator - INFO - Epoch 28 - Train Loss: 1.7752, Train Acc: 0.2711, Val Loss: 1.8130, Val Acc: 0.2761
+2025-01-05 11:18:48,647 - name_generator - INFO - 
+Epoch 29/200
+2025-01-05 11:18:50,036 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:50,036 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:50,036 - name_generator - INFO - Epoch 29 - Train Loss: 1.7713, Train Acc: 0.2728, Val Loss: 1.8088, Val Acc: 0.2781
+2025-01-05 11:18:50,036 - name_generator - INFO - 
+Epoch 30/200
+2025-01-05 11:18:51,433 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:51,433 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:51,434 - name_generator - INFO - Epoch 30 - Train Loss: 1.7700, Train Acc: 0.2737, Val Loss: 1.8028, Val Acc: 0.2771
+2025-01-05 11:18:51,434 - name_generator - INFO - 
+Epoch 31/200
+2025-01-05 11:18:52,813 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:52,813 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:52,813 - name_generator - INFO - Epoch 31 - Train Loss: 1.7476, Train Acc: 0.2747, Val Loss: 1.7980, Val Acc: 0.2788
+2025-01-05 11:18:52,814 - name_generator - INFO - 
+Epoch 32/200
+2025-01-05 11:18:54,132 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:54,132 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:54,132 - name_generator - INFO - Epoch 32 - Train Loss: 1.7556, Train Acc: 0.2745, Val Loss: 1.7942, Val Acc: 0.2821
+2025-01-05 11:18:54,132 - name_generator - INFO - 
+Epoch 33/200
+2025-01-05 11:18:55,395 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:55,395 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:55,395 - name_generator - INFO - Epoch 33 - Train Loss: 1.7452, Train Acc: 0.2756, Val Loss: 1.7897, Val Acc: 0.2821
+2025-01-05 11:18:55,395 - name_generator - INFO - 
+Epoch 34/200
+2025-01-05 11:18:56,667 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:56,667 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:56,667 - name_generator - INFO - Epoch 34 - Train Loss: 1.7645, Train Acc: 0.2764, Val Loss: 1.7864, Val Acc: 0.2798
+2025-01-05 11:18:56,667 - name_generator - INFO - 
+Epoch 35/200
+2025-01-05 11:18:57,937 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:57,938 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:57,938 - name_generator - INFO - Epoch 35 - Train Loss: 1.7428, Train Acc: 0.2759, Val Loss: 1.7823, Val Acc: 0.2845
+2025-01-05 11:18:57,938 - name_generator - INFO - 
+Epoch 36/200
+2025-01-05 11:18:59,198 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:18:59,198 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:18:59,198 - name_generator - INFO - Epoch 36 - Train Loss: 1.7302, Train Acc: 0.2774, Val Loss: 1.7801, Val Acc: 0.2838
+2025-01-05 11:18:59,198 - name_generator - INFO - 
+Epoch 37/200
+2025-01-05 11:19:00,458 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:00,458 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:00,458 - name_generator - INFO - Epoch 37 - Train Loss: 1.7329, Train Acc: 0.2780, Val Loss: 1.7756, Val Acc: 0.2915
+2025-01-05 11:19:00,458 - name_generator - INFO - 
+Epoch 38/200
+2025-01-05 11:19:01,714 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:01,714 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:01,714 - name_generator - INFO - Epoch 38 - Train Loss: 1.7304, Train Acc: 0.2791, Val Loss: 1.7723, Val Acc: 0.2925
+2025-01-05 11:19:01,714 - name_generator - INFO - 
+Epoch 39/200
+2025-01-05 11:19:02,974 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:02,974 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:02,974 - name_generator - INFO - Epoch 39 - Train Loss: 1.7299, Train Acc: 0.2809, Val Loss: 1.7716, Val Acc: 0.2895
+2025-01-05 11:19:02,974 - name_generator - INFO - 
+Epoch 40/200
+2025-01-05 11:19:04,229 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:04,229 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:04,229 - name_generator - INFO - Epoch 40 - Train Loss: 1.7272, Train Acc: 0.2825, Val Loss: 1.7687, Val Acc: 0.2928
+2025-01-05 11:19:04,229 - name_generator - INFO - 
+Epoch 41/200
+2025-01-05 11:19:05,493 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:05,493 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:05,493 - name_generator - INFO - Epoch 41 - Train Loss: 1.7203, Train Acc: 0.2830, Val Loss: 1.7646, Val Acc: 0.2912
+2025-01-05 11:19:05,493 - name_generator - INFO - 
+Epoch 42/200
+2025-01-05 11:19:06,748 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:06,748 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:06,748 - name_generator - INFO - Epoch 42 - Train Loss: 1.7204, Train Acc: 0.2845, Val Loss: 1.7625, Val Acc: 0.2912
+2025-01-05 11:19:06,748 - name_generator - INFO - 
+Epoch 43/200
+2025-01-05 11:19:08,008 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:08,008 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:08,008 - name_generator - INFO - Epoch 43 - Train Loss: 1.7055, Train Acc: 0.2841, Val Loss: 1.7577, Val Acc: 0.2965
+2025-01-05 11:19:08,008 - name_generator - INFO - 
+Epoch 44/200
+2025-01-05 11:19:09,261 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:09,261 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:09,261 - name_generator - INFO - Epoch 44 - Train Loss: 1.7108, Train Acc: 0.2847, Val Loss: 1.7559, Val Acc: 0.2942
+2025-01-05 11:19:09,261 - name_generator - INFO - 
+Epoch 45/200
+2025-01-05 11:19:10,513 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:10,513 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:10,514 - name_generator - INFO - Epoch 45 - Train Loss: 1.7050, Train Acc: 0.2863, Val Loss: 1.7528, Val Acc: 0.2965
+2025-01-05 11:19:10,514 - name_generator - INFO - 
+Epoch 46/200
+2025-01-05 11:19:11,772 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:11,772 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:11,772 - name_generator - INFO - Epoch 46 - Train Loss: 1.7042, Train Acc: 0.2880, Val Loss: 1.7515, Val Acc: 0.2959
+2025-01-05 11:19:11,772 - name_generator - INFO - 
+Epoch 47/200
+2025-01-05 11:19:13,024 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:13,024 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:13,024 - name_generator - INFO - Epoch 47 - Train Loss: 1.6973, Train Acc: 0.2879, Val Loss: 1.7490, Val Acc: 0.2972
+2025-01-05 11:19:13,025 - name_generator - INFO - 
+Epoch 48/200
+2025-01-05 11:19:14,277 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:14,278 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:14,278 - name_generator - INFO - Epoch 48 - Train Loss: 1.6942, Train Acc: 0.2895, Val Loss: 1.7472, Val Acc: 0.2975
+2025-01-05 11:19:14,278 - name_generator - INFO - 
+Epoch 49/200
+2025-01-05 11:19:15,533 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:15,533 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:15,533 - name_generator - INFO - Epoch 49 - Train Loss: 1.6966, Train Acc: 0.2898, Val Loss: 1.7446, Val Acc: 0.2955
+2025-01-05 11:19:15,533 - name_generator - INFO - 
+Epoch 50/200
+2025-01-05 11:19:16,782 - name_generator - INFO - Epoch 50 - Train Loss: 1.6988, Train Acc: 0.2900, Val Loss: 1.7456, Val Acc: 0.2975
+2025-01-05 11:19:16,783 - name_generator - INFO - 
+Epoch 51/200
+2025-01-05 11:19:18,043 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:18,043 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:18,043 - name_generator - INFO - Epoch 51 - Train Loss: 1.6940, Train Acc: 0.2915, Val Loss: 1.7420, Val Acc: 0.2989
+2025-01-05 11:19:18,043 - name_generator - INFO - 
+Epoch 52/200
+2025-01-05 11:19:19,296 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:19,297 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:19,297 - name_generator - INFO - Epoch 52 - Train Loss: 1.6960, Train Acc: 0.2929, Val Loss: 1.7395, Val Acc: 0.2995
+2025-01-05 11:19:19,297 - name_generator - INFO - 
+Epoch 53/200
+2025-01-05 11:19:20,550 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:20,550 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:20,550 - name_generator - INFO - Epoch 53 - Train Loss: 1.6900, Train Acc: 0.2931, Val Loss: 1.7386, Val Acc: 0.2985
+2025-01-05 11:19:20,550 - name_generator - INFO - 
+Epoch 54/200
+2025-01-05 11:19:21,812 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:21,812 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:21,812 - name_generator - INFO - Epoch 54 - Train Loss: 1.6870, Train Acc: 0.2934, Val Loss: 1.7370, Val Acc: 0.2989
+2025-01-05 11:19:21,812 - name_generator - INFO - 
+Epoch 55/200
+2025-01-05 11:19:23,065 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:23,065 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:23,065 - name_generator - INFO - Epoch 55 - Train Loss: 1.6806, Train Acc: 0.2940, Val Loss: 1.7358, Val Acc: 0.3015
+2025-01-05 11:19:23,065 - name_generator - INFO - 
+Epoch 56/200
+2025-01-05 11:19:24,322 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:24,322 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:24,322 - name_generator - INFO - Epoch 56 - Train Loss: 1.6911, Train Acc: 0.2933, Val Loss: 1.7337, Val Acc: 0.3005
+2025-01-05 11:19:24,323 - name_generator - INFO - 
+Epoch 57/200
+2025-01-05 11:19:25,582 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:25,582 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:25,582 - name_generator - INFO - Epoch 57 - Train Loss: 1.6772, Train Acc: 0.2945, Val Loss: 1.7328, Val Acc: 0.3009
+2025-01-05 11:19:25,582 - name_generator - INFO - 
+Epoch 58/200
+2025-01-05 11:19:26,837 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:26,837 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:26,837 - name_generator - INFO - Epoch 58 - Train Loss: 1.6744, Train Acc: 0.2952, Val Loss: 1.7311, Val Acc: 0.3012
+2025-01-05 11:19:26,837 - name_generator - INFO - 
+Epoch 59/200
+2025-01-05 11:19:28,110 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:28,111 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:28,111 - name_generator - INFO - Epoch 59 - Train Loss: 1.6771, Train Acc: 0.2946, Val Loss: 1.7310, Val Acc: 0.3012
+2025-01-05 11:19:28,111 - name_generator - INFO - 
+Epoch 60/200
+2025-01-05 11:19:29,383 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:29,384 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:29,384 - name_generator - INFO - Epoch 60 - Train Loss: 1.6790, Train Acc: 0.2972, Val Loss: 1.7284, Val Acc: 0.3019
+2025-01-05 11:19:29,384 - name_generator - INFO - 
+Epoch 61/200
+2025-01-05 11:19:30,749 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:30,749 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:30,749 - name_generator - INFO - Epoch 61 - Train Loss: 1.6769, Train Acc: 0.2969, Val Loss: 1.7269, Val Acc: 0.3035
+2025-01-05 11:19:30,749 - name_generator - INFO - 
+Epoch 62/200
+2025-01-05 11:19:32,118 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:32,118 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:32,118 - name_generator - INFO - Epoch 62 - Train Loss: 1.6784, Train Acc: 0.2970, Val Loss: 1.7267, Val Acc: 0.3029
+2025-01-05 11:19:32,119 - name_generator - INFO - 
+Epoch 63/200
+2025-01-05 11:19:33,405 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:33,405 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:33,405 - name_generator - INFO - Epoch 63 - Train Loss: 1.6671, Train Acc: 0.2986, Val Loss: 1.7243, Val Acc: 0.3042
+2025-01-05 11:19:33,405 - name_generator - INFO - 
+Epoch 64/200
+2025-01-05 11:19:34,666 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:34,667 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:34,667 - name_generator - INFO - Epoch 64 - Train Loss: 1.6666, Train Acc: 0.2979, Val Loss: 1.7239, Val Acc: 0.3049
+2025-01-05 11:19:34,667 - name_generator - INFO - 
+Epoch 65/200
+2025-01-05 11:19:35,916 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:35,916 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:35,916 - name_generator - INFO - Epoch 65 - Train Loss: 1.6735, Train Acc: 0.2978, Val Loss: 1.7228, Val Acc: 0.3046
+2025-01-05 11:19:35,916 - name_generator - INFO - 
+Epoch 66/200
+2025-01-05 11:19:37,163 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:37,163 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:37,163 - name_generator - INFO - Epoch 66 - Train Loss: 1.6710, Train Acc: 0.2985, Val Loss: 1.7216, Val Acc: 0.3042
+2025-01-05 11:19:37,163 - name_generator - INFO - 
+Epoch 67/200
+2025-01-05 11:19:38,425 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:38,425 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:38,425 - name_generator - INFO - Epoch 67 - Train Loss: 1.6743, Train Acc: 0.2983, Val Loss: 1.7207, Val Acc: 0.3032
+2025-01-05 11:19:38,425 - name_generator - INFO - 
+Epoch 68/200
+2025-01-05 11:19:39,690 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:39,690 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:39,691 - name_generator - INFO - Epoch 68 - Train Loss: 1.6685, Train Acc: 0.2996, Val Loss: 1.7196, Val Acc: 0.3012
+2025-01-05 11:19:39,691 - name_generator - INFO - 
+Epoch 69/200
+2025-01-05 11:19:41,061 - name_generator - INFO - Epoch 69 - Train Loss: 1.6617, Train Acc: 0.2993, Val Loss: 1.7200, Val Acc: 0.3039
+2025-01-05 11:19:41,061 - name_generator - INFO - 
+Epoch 70/200
+2025-01-05 11:19:42,444 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:42,445 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:42,445 - name_generator - INFO - Epoch 70 - Train Loss: 1.6535, Train Acc: 0.3002, Val Loss: 1.7173, Val Acc: 0.3022
+2025-01-05 11:19:42,445 - name_generator - INFO - 
+Epoch 71/200
+2025-01-05 11:19:43,815 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:43,815 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:43,815 - name_generator - INFO - Epoch 71 - Train Loss: 1.6569, Train Acc: 0.2995, Val Loss: 1.7158, Val Acc: 0.3009
+2025-01-05 11:19:43,815 - name_generator - INFO - 
+Epoch 72/200
+2025-01-05 11:19:45,179 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:45,180 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:45,180 - name_generator - INFO - Epoch 72 - Train Loss: 1.6578, Train Acc: 0.2998, Val Loss: 1.7153, Val Acc: 0.3015
+2025-01-05 11:19:45,180 - name_generator - INFO - 
+Epoch 73/200
+2025-01-05 11:19:46,550 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:46,551 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:46,551 - name_generator - INFO - Epoch 73 - Train Loss: 1.6554, Train Acc: 0.3000, Val Loss: 1.7147, Val Acc: 0.2992
+2025-01-05 11:19:46,551 - name_generator - INFO - 
+Epoch 74/200
+2025-01-05 11:19:47,918 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:47,918 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:47,918 - name_generator - INFO - Epoch 74 - Train Loss: 1.6566, Train Acc: 0.3004, Val Loss: 1.7127, Val Acc: 0.2999
+2025-01-05 11:19:47,918 - name_generator - INFO - 
+Epoch 75/200
+2025-01-05 11:19:49,293 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:49,294 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:49,294 - name_generator - INFO - Epoch 75 - Train Loss: 1.6447, Train Acc: 0.3023, Val Loss: 1.7116, Val Acc: 0.3029
+2025-01-05 11:19:49,294 - name_generator - INFO - 
+Epoch 76/200
+2025-01-05 11:19:50,667 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:50,668 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:50,668 - name_generator - INFO - Epoch 76 - Train Loss: 1.6501, Train Acc: 0.3035, Val Loss: 1.7110, Val Acc: 0.3022
+2025-01-05 11:19:50,668 - name_generator - INFO - 
+Epoch 77/200
+2025-01-05 11:19:52,056 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:52,057 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:52,057 - name_generator - INFO - Epoch 77 - Train Loss: 1.6445, Train Acc: 0.3021, Val Loss: 1.7104, Val Acc: 0.3052
+2025-01-05 11:19:52,057 - name_generator - INFO - 
+Epoch 78/200
+2025-01-05 11:19:53,430 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:53,430 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:53,430 - name_generator - INFO - Epoch 78 - Train Loss: 1.6511, Train Acc: 0.3032, Val Loss: 1.7097, Val Acc: 0.3062
+2025-01-05 11:19:53,430 - name_generator - INFO - 
+Epoch 79/200
+2025-01-05 11:19:54,796 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:54,796 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:54,796 - name_generator - INFO - Epoch 79 - Train Loss: 1.6413, Train Acc: 0.3053, Val Loss: 1.7076, Val Acc: 0.3049
+2025-01-05 11:19:54,796 - name_generator - INFO - 
+Epoch 80/200
+2025-01-05 11:19:56,170 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:56,170 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:56,170 - name_generator - INFO - Epoch 80 - Train Loss: 1.6444, Train Acc: 0.3060, Val Loss: 1.7060, Val Acc: 0.3062
+2025-01-05 11:19:56,170 - name_generator - INFO - 
+Epoch 81/200
+2025-01-05 11:19:57,542 - name_generator - INFO - Epoch 81 - Train Loss: 1.6399, Train Acc: 0.3059, Val Loss: 1.7070, Val Acc: 0.3039
+2025-01-05 11:19:57,542 - name_generator - INFO - 
+Epoch 82/200
+2025-01-05 11:19:58,914 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:19:58,914 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:19:58,914 - name_generator - INFO - Epoch 82 - Train Loss: 1.6445, Train Acc: 0.3067, Val Loss: 1.7054, Val Acc: 0.3069
+2025-01-05 11:19:58,914 - name_generator - INFO - 
+Epoch 83/200
+2025-01-05 11:20:00,294 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:00,294 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:00,294 - name_generator - INFO - Epoch 83 - Train Loss: 1.6385, Train Acc: 0.3087, Val Loss: 1.7044, Val Acc: 0.3049
+2025-01-05 11:20:00,294 - name_generator - INFO - 
+Epoch 84/200
+2025-01-05 11:20:01,669 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:01,669 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:01,670 - name_generator - INFO - Epoch 84 - Train Loss: 1.6513, Train Acc: 0.3096, Val Loss: 1.7033, Val Acc: 0.3072
+2025-01-05 11:20:01,670 - name_generator - INFO - 
+Epoch 85/200
+2025-01-05 11:20:03,037 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:03,037 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:03,037 - name_generator - INFO - Epoch 85 - Train Loss: 1.6340, Train Acc: 0.3081, Val Loss: 1.7021, Val Acc: 0.3049
+2025-01-05 11:20:03,037 - name_generator - INFO - 
+Epoch 86/200
+2025-01-05 11:20:04,402 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:04,403 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:04,403 - name_generator - INFO - Epoch 86 - Train Loss: 1.6385, Train Acc: 0.3103, Val Loss: 1.7010, Val Acc: 0.3069
+2025-01-05 11:20:04,403 - name_generator - INFO - 
+Epoch 87/200
+2025-01-05 11:20:05,774 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:05,774 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:05,774 - name_generator - INFO - Epoch 87 - Train Loss: 1.6312, Train Acc: 0.3113, Val Loss: 1.7000, Val Acc: 0.3086
+2025-01-05 11:20:05,774 - name_generator - INFO - 
+Epoch 88/200
+2025-01-05 11:20:07,143 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:07,143 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:07,143 - name_generator - INFO - Epoch 88 - Train Loss: 1.6322, Train Acc: 0.3119, Val Loss: 1.6998, Val Acc: 0.3089
+2025-01-05 11:20:07,143 - name_generator - INFO - 
+Epoch 89/200
+2025-01-05 11:20:08,509 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:08,509 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:08,509 - name_generator - INFO - Epoch 89 - Train Loss: 1.6270, Train Acc: 0.3132, Val Loss: 1.6977, Val Acc: 0.3089
+2025-01-05 11:20:08,509 - name_generator - INFO - 
+Epoch 90/200
+2025-01-05 11:20:09,779 - name_generator - INFO - Epoch 90 - Train Loss: 1.6343, Train Acc: 0.3129, Val Loss: 1.6978, Val Acc: 0.3096
+2025-01-05 11:20:09,780 - name_generator - INFO - 
+Epoch 91/200
+2025-01-05 11:20:11,033 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:11,033 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:11,033 - name_generator - INFO - Epoch 91 - Train Loss: 1.6262, Train Acc: 0.3140, Val Loss: 1.6975, Val Acc: 0.3092
+2025-01-05 11:20:11,033 - name_generator - INFO - 
+Epoch 92/200
+2025-01-05 11:20:12,294 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:12,294 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:12,294 - name_generator - INFO - Epoch 92 - Train Loss: 1.6197, Train Acc: 0.3146, Val Loss: 1.6954, Val Acc: 0.3072
+2025-01-05 11:20:12,294 - name_generator - INFO - 
+Epoch 93/200
+2025-01-05 11:20:13,676 - name_generator - INFO - Epoch 93 - Train Loss: 1.6319, Train Acc: 0.3154, Val Loss: 1.6966, Val Acc: 0.3122
+2025-01-05 11:20:13,676 - name_generator - INFO - 
+Epoch 94/200
+2025-01-05 11:20:14,973 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:14,973 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:14,973 - name_generator - INFO - Epoch 94 - Train Loss: 1.6215, Train Acc: 0.3161, Val Loss: 1.6943, Val Acc: 0.3122
+2025-01-05 11:20:14,973 - name_generator - INFO - 
+Epoch 95/200
+2025-01-05 11:20:16,225 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:16,226 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:16,226 - name_generator - INFO - Epoch 95 - Train Loss: 1.6098, Train Acc: 0.3175, Val Loss: 1.6929, Val Acc: 0.3116
+2025-01-05 11:20:16,226 - name_generator - INFO - 
+Epoch 96/200
+2025-01-05 11:20:17,483 - name_generator - INFO - Epoch 96 - Train Loss: 1.6276, Train Acc: 0.3174, Val Loss: 1.6930, Val Acc: 0.3109
+2025-01-05 11:20:17,483 - name_generator - INFO - 
+Epoch 97/200
+2025-01-05 11:20:18,742 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:18,742 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:18,742 - name_generator - INFO - Epoch 97 - Train Loss: 1.6270, Train Acc: 0.3166, Val Loss: 1.6912, Val Acc: 0.3079
+2025-01-05 11:20:18,742 - name_generator - INFO - 
+Epoch 98/200
+2025-01-05 11:20:19,997 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:19,997 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:19,997 - name_generator - INFO - Epoch 98 - Train Loss: 1.6187, Train Acc: 0.3189, Val Loss: 1.6907, Val Acc: 0.3082
+2025-01-05 11:20:19,997 - name_generator - INFO - 
+Epoch 99/200
+2025-01-05 11:20:21,254 - name_generator - INFO - Epoch 99 - Train Loss: 1.6138, Train Acc: 0.3181, Val Loss: 1.6907, Val Acc: 0.3136
+2025-01-05 11:20:21,254 - name_generator - INFO - 
+Epoch 100/200
+2025-01-05 11:20:22,516 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:22,516 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:22,516 - name_generator - INFO - Epoch 100 - Train Loss: 1.6232, Train Acc: 0.3190, Val Loss: 1.6883, Val Acc: 0.3149
+2025-01-05 11:20:22,516 - name_generator - INFO - 
+Epoch 101/200
+2025-01-05 11:20:23,784 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:23,784 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:23,784 - name_generator - INFO - Epoch 101 - Train Loss: 1.6112, Train Acc: 0.3201, Val Loss: 1.6874, Val Acc: 0.3129
+2025-01-05 11:20:23,784 - name_generator - INFO - 
+Epoch 102/200
+2025-01-05 11:20:25,062 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:25,062 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:25,063 - name_generator - INFO - Epoch 102 - Train Loss: 1.6126, Train Acc: 0.3189, Val Loss: 1.6861, Val Acc: 0.3153
+2025-01-05 11:20:25,063 - name_generator - INFO - 
+Epoch 103/200
+2025-01-05 11:20:26,327 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:26,327 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:26,327 - name_generator - INFO - Epoch 103 - Train Loss: 1.6090, Train Acc: 0.3207, Val Loss: 1.6858, Val Acc: 0.3149
+2025-01-05 11:20:26,327 - name_generator - INFO - 
+Epoch 104/200
+2025-01-05 11:20:27,593 - name_generator - INFO - Epoch 104 - Train Loss: 1.5943, Train Acc: 0.3209, Val Loss: 1.6861, Val Acc: 0.3146
+2025-01-05 11:20:27,593 - name_generator - INFO - 
+Epoch 105/200
+2025-01-05 11:20:28,868 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:28,868 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:28,868 - name_generator - INFO - Epoch 105 - Train Loss: 1.6053, Train Acc: 0.3202, Val Loss: 1.6850, Val Acc: 0.3159
+2025-01-05 11:20:28,868 - name_generator - INFO - 
+Epoch 106/200
+2025-01-05 11:20:30,139 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:30,139 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:30,139 - name_generator - INFO - Epoch 106 - Train Loss: 1.6041, Train Acc: 0.3206, Val Loss: 1.6842, Val Acc: 0.3139
+2025-01-05 11:20:30,139 - name_generator - INFO - 
+Epoch 107/200
+2025-01-05 11:20:31,413 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:31,414 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:31,414 - name_generator - INFO - Epoch 107 - Train Loss: 1.6105, Train Acc: 0.3214, Val Loss: 1.6832, Val Acc: 0.3196
+2025-01-05 11:20:31,414 - name_generator - INFO - 
+Epoch 108/200
+2025-01-05 11:20:32,710 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:32,711 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:32,711 - name_generator - INFO - Epoch 108 - Train Loss: 1.6122, Train Acc: 0.3221, Val Loss: 1.6813, Val Acc: 0.3193
+2025-01-05 11:20:32,711 - name_generator - INFO - 
+Epoch 109/200
+2025-01-05 11:20:34,112 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:34,112 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:34,113 - name_generator - INFO - Epoch 109 - Train Loss: 1.5972, Train Acc: 0.3231, Val Loss: 1.6812, Val Acc: 0.3196
+2025-01-05 11:20:34,113 - name_generator - INFO - 
+Epoch 110/200
+2025-01-05 11:20:35,507 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:35,507 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:35,507 - name_generator - INFO - Epoch 110 - Train Loss: 1.5930, Train Acc: 0.3234, Val Loss: 1.6812, Val Acc: 0.3206
+2025-01-05 11:20:35,507 - name_generator - INFO - 
+Epoch 111/200
+2025-01-05 11:20:36,885 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:36,885 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:36,885 - name_generator - INFO - Epoch 111 - Train Loss: 1.5840, Train Acc: 0.3238, Val Loss: 1.6800, Val Acc: 0.3199
+2025-01-05 11:20:36,885 - name_generator - INFO - 
+Epoch 112/200
+2025-01-05 11:20:38,223 - name_generator - INFO - Epoch 112 - Train Loss: 1.5898, Train Acc: 0.3239, Val Loss: 1.6816, Val Acc: 0.3189
+2025-01-05 11:20:38,224 - name_generator - INFO - 
+Epoch 113/200
+2025-01-05 11:20:39,506 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:39,506 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:39,506 - name_generator - INFO - Epoch 113 - Train Loss: 1.5884, Train Acc: 0.3244, Val Loss: 1.6779, Val Acc: 0.3199
+2025-01-05 11:20:39,506 - name_generator - INFO - 
+Epoch 114/200
+2025-01-05 11:20:40,781 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:40,781 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:40,781 - name_generator - INFO - Epoch 114 - Train Loss: 1.5940, Train Acc: 0.3241, Val Loss: 1.6773, Val Acc: 0.3220
+2025-01-05 11:20:40,781 - name_generator - INFO - 
+Epoch 115/200
+2025-01-05 11:20:42,054 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:42,054 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:42,054 - name_generator - INFO - Epoch 115 - Train Loss: 1.5878, Train Acc: 0.3248, Val Loss: 1.6762, Val Acc: 0.3230
+2025-01-05 11:20:42,054 - name_generator - INFO - 
+Epoch 116/200
+2025-01-05 11:20:43,338 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:43,338 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:43,338 - name_generator - INFO - Epoch 116 - Train Loss: 1.6026, Train Acc: 0.3251, Val Loss: 1.6760, Val Acc: 0.3223
+2025-01-05 11:20:43,339 - name_generator - INFO - 
+Epoch 117/200
+2025-01-05 11:20:44,615 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:44,615 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:44,615 - name_generator - INFO - Epoch 117 - Train Loss: 1.5942, Train Acc: 0.3262, Val Loss: 1.6748, Val Acc: 0.3223
+2025-01-05 11:20:44,615 - name_generator - INFO - 
+Epoch 118/200
+2025-01-05 11:20:45,879 - name_generator - INFO - Epoch 118 - Train Loss: 1.5837, Train Acc: 0.3274, Val Loss: 1.6757, Val Acc: 0.3226
+2025-01-05 11:20:45,879 - name_generator - INFO - 
+Epoch 119/200
+2025-01-05 11:20:47,152 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:47,152 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:47,152 - name_generator - INFO - Epoch 119 - Train Loss: 1.5882, Train Acc: 0.3273, Val Loss: 1.6740, Val Acc: 0.3243
+2025-01-05 11:20:47,152 - name_generator - INFO - 
+Epoch 120/200
+2025-01-05 11:20:48,427 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:48,427 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:48,427 - name_generator - INFO - Epoch 120 - Train Loss: 1.5827, Train Acc: 0.3279, Val Loss: 1.6735, Val Acc: 0.3233
+2025-01-05 11:20:48,428 - name_generator - INFO - 
+Epoch 121/200
+2025-01-05 11:20:49,695 - name_generator - INFO - Epoch 121 - Train Loss: 1.5891, Train Acc: 0.3283, Val Loss: 1.6737, Val Acc: 0.3243
+2025-01-05 11:20:49,695 - name_generator - INFO - 
+Epoch 122/200
+2025-01-05 11:20:50,965 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:50,965 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:50,965 - name_generator - INFO - Epoch 122 - Train Loss: 1.5902, Train Acc: 0.3289, Val Loss: 1.6724, Val Acc: 0.3243
+2025-01-05 11:20:50,965 - name_generator - INFO - 
+Epoch 123/200
+2025-01-05 11:20:52,235 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:52,235 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:52,235 - name_generator - INFO - Epoch 123 - Train Loss: 1.5925, Train Acc: 0.3300, Val Loss: 1.6722, Val Acc: 0.3223
+2025-01-05 11:20:52,235 - name_generator - INFO - 
+Epoch 124/200
+2025-01-05 11:20:53,515 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:53,516 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:53,516 - name_generator - INFO - Epoch 124 - Train Loss: 1.5806, Train Acc: 0.3289, Val Loss: 1.6714, Val Acc: 0.3246
+2025-01-05 11:20:53,516 - name_generator - INFO - 
+Epoch 125/200
+2025-01-05 11:20:54,915 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:54,915 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:54,915 - name_generator - INFO - Epoch 125 - Train Loss: 1.5874, Train Acc: 0.3287, Val Loss: 1.6699, Val Acc: 0.3260
+2025-01-05 11:20:54,915 - name_generator - INFO - 
+Epoch 126/200
+2025-01-05 11:20:56,294 - name_generator - INFO - Epoch 126 - Train Loss: 1.5737, Train Acc: 0.3311, Val Loss: 1.6700, Val Acc: 0.3226
+2025-01-05 11:20:56,294 - name_generator - INFO - 
+Epoch 127/200
+2025-01-05 11:20:57,600 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:20:57,600 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:20:57,600 - name_generator - INFO - Epoch 127 - Train Loss: 1.5809, Train Acc: 0.3305, Val Loss: 1.6687, Val Acc: 0.3256
+2025-01-05 11:20:57,600 - name_generator - INFO - 
+Epoch 128/200
+2025-01-05 11:20:58,871 - name_generator - INFO - Epoch 128 - Train Loss: 1.5727, Train Acc: 0.3325, Val Loss: 1.6695, Val Acc: 0.3260
+2025-01-05 11:20:58,871 - name_generator - INFO - 
+Epoch 129/200
+2025-01-05 11:21:00,136 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:21:00,137 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:21:00,137 - name_generator - INFO - Epoch 129 - Train Loss: 1.5792, Train Acc: 0.3324, Val Loss: 1.6685, Val Acc: 0.3260
+2025-01-05 11:21:00,137 - name_generator - INFO - 
+Epoch 130/200
+2025-01-05 11:21:01,402 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:21:01,402 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:21:01,402 - name_generator - INFO - Epoch 130 - Train Loss: 1.5717, Train Acc: 0.3314, Val Loss: 1.6674, Val Acc: 0.3290
+2025-01-05 11:21:01,402 - name_generator - INFO - 
+Epoch 131/200
+2025-01-05 11:21:02,672 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:21:02,672 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:21:02,672 - name_generator - INFO - Epoch 131 - Train Loss: 1.5672, Train Acc: 0.3334, Val Loss: 1.6668, Val Acc: 0.3256
+2025-01-05 11:21:02,673 - name_generator - INFO - 
+Epoch 132/200
+2025-01-05 11:21:03,931 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:21:03,931 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:21:03,932 - name_generator - INFO - Epoch 132 - Train Loss: 1.5733, Train Acc: 0.3333, Val Loss: 1.6665, Val Acc: 0.3246
+2025-01-05 11:21:03,932 - name_generator - INFO - 
+Epoch 133/200
+2025-01-05 11:21:05,207 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:21:05,207 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:21:05,207 - name_generator - INFO - Epoch 133 - Train Loss: 1.5716, Train Acc: 0.3334, Val Loss: 1.6663, Val Acc: 0.3253
+2025-01-05 11:21:05,207 - name_generator - INFO - 
+Epoch 134/200
+2025-01-05 11:21:06,468 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:21:06,469 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:21:06,469 - name_generator - INFO - Epoch 134 - Train Loss: 1.5582, Train Acc: 0.3330, Val Loss: 1.6658, Val Acc: 0.3300
+2025-01-05 11:21:06,469 - name_generator - INFO - 
+Epoch 135/200
+2025-01-05 11:21:07,730 - name_generator - INFO - Epoch 135 - Train Loss: 1.5770, Train Acc: 0.3370, Val Loss: 1.6664, Val Acc: 0.3286
+2025-01-05 11:21:07,731 - name_generator - INFO - 
+Epoch 136/200
+2025-01-05 11:21:08,983 - name_generator - INFO - Epoch 136 - Train Loss: 1.5740, Train Acc: 0.3353, Val Loss: 1.6674, Val Acc: 0.3290
+2025-01-05 11:21:08,983 - name_generator - INFO - 
+Epoch 137/200
+2025-01-05 11:21:10,238 - name_generator - INFO - Epoch 137 - Train Loss: 1.5632, Train Acc: 0.3367, Val Loss: 1.6671, Val Acc: 0.3290
+2025-01-05 11:21:10,239 - name_generator - INFO - 
+Epoch 138/200
+2025-01-05 11:21:11,497 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:21:11,497 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:21:11,497 - name_generator - INFO - Epoch 138 - Train Loss: 1.5644, Train Acc: 0.3376, Val Loss: 1.6639, Val Acc: 0.3303
+2025-01-05 11:21:11,497 - name_generator - INFO - 
+Epoch 139/200
+2025-01-05 11:21:12,756 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:21:12,756 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:21:12,756 - name_generator - INFO - Epoch 139 - Train Loss: 1.5639, Train Acc: 0.3366, Val Loss: 1.6636, Val Acc: 0.3307
+2025-01-05 11:21:12,756 - name_generator - INFO - 
+Epoch 140/200
+2025-01-05 11:21:14,010 - name_generator - INFO - Epoch 140 - Train Loss: 1.5544, Train Acc: 0.3384, Val Loss: 1.6671, Val Acc: 0.3236
+2025-01-05 11:21:14,011 - name_generator - INFO - 
+Epoch 141/200
+2025-01-05 11:21:15,392 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:21:15,392 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:21:15,392 - name_generator - INFO - Epoch 141 - Train Loss: 1.5602, Train Acc: 0.3383, Val Loss: 1.6614, Val Acc: 0.3297
+2025-01-05 11:21:15,392 - name_generator - INFO - 
+Epoch 142/200
+2025-01-05 11:21:16,776 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:21:16,776 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:21:16,776 - name_generator - INFO - Epoch 142 - Train Loss: 1.5717, Train Acc: 0.3386, Val Loss: 1.6613, Val Acc: 0.3337
+2025-01-05 11:21:16,776 - name_generator - INFO - 
+Epoch 143/200
+2025-01-05 11:21:18,135 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:21:18,135 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:21:18,135 - name_generator - INFO - Epoch 143 - Train Loss: 1.5629, Train Acc: 0.3391, Val Loss: 1.6603, Val Acc: 0.3350
+2025-01-05 11:21:18,136 - name_generator - INFO - 
+Epoch 144/200
+2025-01-05 11:21:19,493 - name_generator - INFO - Epoch 144 - Train Loss: 1.5529, Train Acc: 0.3394, Val Loss: 1.6609, Val Acc: 0.3330
+2025-01-05 11:21:19,493 - name_generator - INFO - 
+Epoch 145/200
+2025-01-05 11:21:20,879 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:21:20,879 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:21:20,879 - name_generator - INFO - Epoch 145 - Train Loss: 1.5550, Train Acc: 0.3414, Val Loss: 1.6596, Val Acc: 0.3323
+2025-01-05 11:21:20,879 - name_generator - INFO - 
+Epoch 146/200
+2025-01-05 11:21:22,454 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:21:22,454 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:21:22,454 - name_generator - INFO - Epoch 146 - Train Loss: 1.5540, Train Acc: 0.3396, Val Loss: 1.6589, Val Acc: 0.3317
+2025-01-05 11:21:22,454 - name_generator - INFO - 
+Epoch 147/200
+2025-01-05 11:21:24,063 - name_generator - INFO - Epoch 147 - Train Loss: 1.5556, Train Acc: 0.3413, Val Loss: 1.6597, Val Acc: 0.3327
+2025-01-05 11:21:24,063 - name_generator - INFO - 
+Epoch 148/200
+2025-01-05 11:21:25,662 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:21:25,662 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:21:25,663 - name_generator - INFO - Epoch 148 - Train Loss: 1.5502, Train Acc: 0.3425, Val Loss: 1.6576, Val Acc: 0.3313
+2025-01-05 11:21:25,663 - name_generator - INFO - 
+Epoch 149/200
+2025-01-05 11:21:27,276 - name_generator - INFO - Epoch 149 - Train Loss: 1.5581, Train Acc: 0.3420, Val Loss: 1.6589, Val Acc: 0.3343
+2025-01-05 11:21:27,276 - name_generator - INFO - 
+Epoch 150/200
+2025-01-05 11:21:28,882 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:21:28,883 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:21:28,883 - name_generator - INFO - Epoch 150 - Train Loss: 1.5608, Train Acc: 0.3428, Val Loss: 1.6572, Val Acc: 0.3290
+2025-01-05 11:21:28,883 - name_generator - INFO - 
+Epoch 151/200
+2025-01-05 11:21:30,489 - name_generator - INFO - Epoch 151 - Train Loss: 1.5597, Train Acc: 0.3427, Val Loss: 1.6574, Val Acc: 0.3310
+2025-01-05 11:21:30,490 - name_generator - INFO - 
+Epoch 152/200
+2025-01-05 11:21:32,073 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:21:32,074 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:21:32,074 - name_generator - INFO - Epoch 152 - Train Loss: 1.5530, Train Acc: 0.3443, Val Loss: 1.6570, Val Acc: 0.3320
+2025-01-05 11:21:32,074 - name_generator - INFO - 
+Epoch 153/200
+2025-01-05 11:21:33,656 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:21:33,656 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:21:33,656 - name_generator - INFO - Epoch 153 - Train Loss: 1.5473, Train Acc: 0.3443, Val Loss: 1.6561, Val Acc: 0.3347
+2025-01-05 11:21:33,656 - name_generator - INFO - 
+Epoch 154/200
+2025-01-05 11:21:35,250 - name_generator - INFO - Epoch 154 - Train Loss: 1.5586, Train Acc: 0.3475, Val Loss: 1.6567, Val Acc: 0.3310
+2025-01-05 11:21:35,250 - name_generator - INFO - 
+Epoch 155/200
+2025-01-05 11:21:36,824 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:21:36,824 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:21:36,824 - name_generator - INFO - Epoch 155 - Train Loss: 1.5642, Train Acc: 0.3455, Val Loss: 1.6554, Val Acc: 0.3337
+2025-01-05 11:21:36,824 - name_generator - INFO - 
+Epoch 156/200
+2025-01-05 11:21:38,295 - name_generator - INFO - Epoch 156 - Train Loss: 1.5457, Train Acc: 0.3473, Val Loss: 1.6560, Val Acc: 0.3317
+2025-01-05 11:21:38,295 - name_generator - INFO - 
+Epoch 157/200
+2025-01-05 11:21:39,830 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:21:39,830 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:21:39,830 - name_generator - INFO - Epoch 157 - Train Loss: 1.5495, Train Acc: 0.3467, Val Loss: 1.6537, Val Acc: 0.3313
+2025-01-05 11:21:39,830 - name_generator - INFO - 
+Epoch 158/200
+2025-01-05 11:21:41,268 - name_generator - INFO - Epoch 158 - Train Loss: 1.5469, Train Acc: 0.3476, Val Loss: 1.6544, Val Acc: 0.3337
+2025-01-05 11:21:41,268 - name_generator - INFO - 
+Epoch 159/200
+2025-01-05 11:21:42,778 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:21:42,778 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:21:42,778 - name_generator - INFO - Epoch 159 - Train Loss: 1.5428, Train Acc: 0.3493, Val Loss: 1.6532, Val Acc: 0.3340
+2025-01-05 11:21:42,778 - name_generator - INFO - 
+Epoch 160/200
+2025-01-05 11:21:44,238 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:21:44,238 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:21:44,238 - name_generator - INFO - Epoch 160 - Train Loss: 1.5506, Train Acc: 0.3493, Val Loss: 1.6526, Val Acc: 0.3340
+2025-01-05 11:21:44,238 - name_generator - INFO - 
+Epoch 161/200
+2025-01-05 11:21:45,762 - name_generator - INFO - Epoch 161 - Train Loss: 1.5397, Train Acc: 0.3488, Val Loss: 1.6528, Val Acc: 0.3353
+2025-01-05 11:21:45,762 - name_generator - INFO - 
+Epoch 162/200
+2025-01-05 11:21:47,329 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:21:47,329 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:21:47,329 - name_generator - INFO - Epoch 162 - Train Loss: 1.5466, Train Acc: 0.3504, Val Loss: 1.6525, Val Acc: 0.3340
+2025-01-05 11:21:47,329 - name_generator - INFO - 
+Epoch 163/200
+2025-01-05 11:21:48,709 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:21:48,709 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:21:48,709 - name_generator - INFO - Epoch 163 - Train Loss: 1.5439, Train Acc: 0.3495, Val Loss: 1.6518, Val Acc: 0.3340
+2025-01-05 11:21:48,709 - name_generator - INFO - 
+Epoch 164/200
+2025-01-05 11:21:50,192 - name_generator - INFO - Epoch 164 - Train Loss: 1.5372, Train Acc: 0.3495, Val Loss: 1.6520, Val Acc: 0.3337
+2025-01-05 11:21:50,192 - name_generator - INFO - 
+Epoch 165/200
+2025-01-05 11:21:51,964 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:21:51,964 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:21:51,965 - name_generator - INFO - Epoch 165 - Train Loss: 1.5439, Train Acc: 0.3507, Val Loss: 1.6498, Val Acc: 0.3337
+2025-01-05 11:21:51,965 - name_generator - INFO - 
+Epoch 166/200
+2025-01-05 11:21:53,268 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:21:53,268 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:21:53,268 - name_generator - INFO - Epoch 166 - Train Loss: 1.5434, Train Acc: 0.3495, Val Loss: 1.6486, Val Acc: 0.3350
+2025-01-05 11:21:53,268 - name_generator - INFO - 
+Epoch 167/200
+2025-01-05 11:21:54,547 - name_generator - INFO - Epoch 167 - Train Loss: 1.5339, Train Acc: 0.3504, Val Loss: 1.6494, Val Acc: 0.3367
+2025-01-05 11:21:54,547 - name_generator - INFO - 
+Epoch 168/200
+2025-01-05 11:21:56,125 - name_generator - INFO - Epoch 168 - Train Loss: 1.5300, Train Acc: 0.3522, Val Loss: 1.6525, Val Acc: 0.3370
+2025-01-05 11:21:56,126 - name_generator - INFO - 
+Epoch 169/200
+2025-01-05 11:21:57,936 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:21:57,936 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:21:57,936 - name_generator - INFO - Epoch 169 - Train Loss: 1.5363, Train Acc: 0.3519, Val Loss: 1.6471, Val Acc: 0.3350
+2025-01-05 11:21:57,936 - name_generator - INFO - 
+Epoch 170/200
+2025-01-05 11:21:59,723 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:21:59,723 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:21:59,723 - name_generator - INFO - Epoch 170 - Train Loss: 1.5315, Train Acc: 0.3529, Val Loss: 1.6470, Val Acc: 0.3357
+2025-01-05 11:21:59,723 - name_generator - INFO - 
+Epoch 171/200
+2025-01-05 11:22:01,524 - name_generator - INFO - Epoch 171 - Train Loss: 1.5457, Train Acc: 0.3522, Val Loss: 1.6489, Val Acc: 0.3347
+2025-01-05 11:22:01,524 - name_generator - INFO - 
+Epoch 172/200
+2025-01-05 11:22:03,252 - name_generator - INFO - Epoch 172 - Train Loss: 1.5337, Train Acc: 0.3532, Val Loss: 1.6474, Val Acc: 0.3357
+2025-01-05 11:22:03,252 - name_generator - INFO - 
+Epoch 173/200
+2025-01-05 11:22:04,703 - name_generator - INFO - Epoch 173 - Train Loss: 1.5365, Train Acc: 0.3525, Val Loss: 1.6480, Val Acc: 0.3357
+2025-01-05 11:22:04,703 - name_generator - INFO - 
+Epoch 174/200
+2025-01-05 11:22:05,985 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:22:05,985 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:22:05,985 - name_generator - INFO - Epoch 174 - Train Loss: 1.5423, Train Acc: 0.3541, Val Loss: 1.6467, Val Acc: 0.3340
+2025-01-05 11:22:05,985 - name_generator - INFO - 
+Epoch 175/200
+2025-01-05 11:22:07,356 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:22:07,356 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:22:07,356 - name_generator - INFO - Epoch 175 - Train Loss: 1.5393, Train Acc: 0.3540, Val Loss: 1.6458, Val Acc: 0.3380
+2025-01-05 11:22:07,356 - name_generator - INFO - 
+Epoch 176/200
+2025-01-05 11:22:08,748 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:22:08,749 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:22:08,749 - name_generator - INFO - Epoch 176 - Train Loss: 1.5262, Train Acc: 0.3545, Val Loss: 1.6455, Val Acc: 0.3380
+2025-01-05 11:22:08,749 - name_generator - INFO - 
+Epoch 177/200
+2025-01-05 11:22:10,126 - name_generator - INFO - Epoch 177 - Train Loss: 1.5263, Train Acc: 0.3552, Val Loss: 1.6456, Val Acc: 0.3410
+2025-01-05 11:22:10,126 - name_generator - INFO - 
+Epoch 178/200
+2025-01-05 11:22:11,486 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:22:11,486 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:22:11,487 - name_generator - INFO - Epoch 178 - Train Loss: 1.5305, Train Acc: 0.3551, Val Loss: 1.6435, Val Acc: 0.3370
+2025-01-05 11:22:11,487 - name_generator - INFO - 
+Epoch 179/200
+2025-01-05 11:22:12,848 - name_generator - INFO - Epoch 179 - Train Loss: 1.5309, Train Acc: 0.3559, Val Loss: 1.6445, Val Acc: 0.3353
+2025-01-05 11:22:12,848 - name_generator - INFO - 
+Epoch 180/200
+2025-01-05 11:22:14,211 - name_generator - INFO - Epoch 180 - Train Loss: 1.5252, Train Acc: 0.3559, Val Loss: 1.6442, Val Acc: 0.3357
+2025-01-05 11:22:14,211 - name_generator - INFO - 
+Epoch 181/200
+2025-01-05 11:22:15,573 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:22:15,573 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:22:15,573 - name_generator - INFO - Epoch 181 - Train Loss: 1.5323, Train Acc: 0.3563, Val Loss: 1.6434, Val Acc: 0.3380
+2025-01-05 11:22:15,573 - name_generator - INFO - 
+Epoch 182/200
+2025-01-05 11:22:16,933 - name_generator - INFO - Epoch 182 - Train Loss: 1.5284, Train Acc: 0.3559, Val Loss: 1.6439, Val Acc: 0.3387
+2025-01-05 11:22:16,933 - name_generator - INFO - 
+Epoch 183/200
+2025-01-05 11:22:18,295 - name_generator - INFO - Epoch 183 - Train Loss: 1.5367, Train Acc: 0.3580, Val Loss: 1.6451, Val Acc: 0.3373
+2025-01-05 11:22:18,295 - name_generator - INFO - 
+Epoch 184/200
+2025-01-05 11:22:19,669 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:22:19,669 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:22:19,669 - name_generator - INFO - Epoch 184 - Train Loss: 1.5278, Train Acc: 0.3566, Val Loss: 1.6431, Val Acc: 0.3394
+2025-01-05 11:22:19,669 - name_generator - INFO - 
+Epoch 185/200
+2025-01-05 11:22:21,045 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:22:21,045 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:22:21,045 - name_generator - INFO - Epoch 185 - Train Loss: 1.5170, Train Acc: 0.3574, Val Loss: 1.6430, Val Acc: 0.3390
+2025-01-05 11:22:21,045 - name_generator - INFO - 
+Epoch 186/200
+2025-01-05 11:22:22,422 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:22:22,423 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:22:22,423 - name_generator - INFO - Epoch 186 - Train Loss: 1.5187, Train Acc: 0.3584, Val Loss: 1.6397, Val Acc: 0.3390
+2025-01-05 11:22:22,423 - name_generator - INFO - 
+Epoch 187/200
+2025-01-05 11:22:23,781 - name_generator - INFO - Epoch 187 - Train Loss: 1.5292, Train Acc: 0.3595, Val Loss: 1.6403, Val Acc: 0.3380
+2025-01-05 11:22:23,781 - name_generator - INFO - 
+Epoch 188/200
+2025-01-05 11:22:25,144 - name_generator - INFO - Epoch 188 - Train Loss: 1.5189, Train Acc: 0.3600, Val Loss: 1.6409, Val Acc: 0.3394
+2025-01-05 11:22:25,144 - name_generator - INFO - 
+Epoch 189/200
+2025-01-05 11:22:26,512 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:22:26,512 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:22:26,512 - name_generator - INFO - Epoch 189 - Train Loss: 1.5297, Train Acc: 0.3578, Val Loss: 1.6394, Val Acc: 0.3397
+2025-01-05 11:22:26,512 - name_generator - INFO - 
+Epoch 190/200
+2025-01-05 11:22:27,877 - name_generator - INFO - Epoch 190 - Train Loss: 1.5298, Train Acc: 0.3598, Val Loss: 1.6401, Val Acc: 0.3400
+2025-01-05 11:22:27,877 - name_generator - INFO - 
+Epoch 191/200
+2025-01-05 11:22:29,247 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:22:29,247 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:22:29,247 - name_generator - INFO - Epoch 191 - Train Loss: 1.5230, Train Acc: 0.3596, Val Loss: 1.6393, Val Acc: 0.3373
+2025-01-05 11:22:29,247 - name_generator - INFO - 
+Epoch 192/200
+2025-01-05 11:22:30,609 - name_generator - INFO - Epoch 192 - Train Loss: 1.5244, Train Acc: 0.3597, Val Loss: 1.6393, Val Acc: 0.3397
+2025-01-05 11:22:30,609 - name_generator - INFO - 
+Epoch 193/200
+2025-01-05 11:22:31,977 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:22:31,977 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:22:31,977 - name_generator - INFO - Epoch 193 - Train Loss: 1.5208, Train Acc: 0.3597, Val Loss: 1.6386, Val Acc: 0.3377
+2025-01-05 11:22:31,977 - name_generator - INFO - 
+Epoch 194/200
+2025-01-05 11:22:33,351 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:22:33,351 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:22:33,352 - name_generator - INFO - Epoch 194 - Train Loss: 1.5072, Train Acc: 0.3610, Val Loss: 1.6379, Val Acc: 0.3407
+2025-01-05 11:22:33,352 - name_generator - INFO - 
+Epoch 195/200
+2025-01-05 11:22:34,728 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:22:34,728 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:22:34,728 - name_generator - INFO - Epoch 195 - Train Loss: 1.5134, Train Acc: 0.3609, Val Loss: 1.6374, Val Acc: 0.3394
+2025-01-05 11:22:34,729 - name_generator - INFO - 
+Epoch 196/200
+2025-01-05 11:22:36,093 - name_generator - INFO - Epoch 196 - Train Loss: 1.5149, Train Acc: 0.3613, Val Loss: 1.6383, Val Acc: 0.3387
+2025-01-05 11:22:36,093 - name_generator - INFO - 
+Epoch 197/200
+2025-01-05 11:22:37,449 - name_generator - INFO - Epoch 197 - Train Loss: 1.5176, Train Acc: 0.3608, Val Loss: 1.6375, Val Acc: 0.3397
+2025-01-05 11:22:37,450 - name_generator - INFO - 
+Epoch 198/200
+2025-01-05 11:22:38,825 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:22:38,825 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:22:38,825 - name_generator - INFO - Epoch 198 - Train Loss: 1.5152, Train Acc: 0.3614, Val Loss: 1.6366, Val Acc: 0.3400
+2025-01-05 11:22:38,825 - name_generator - INFO - 
+Epoch 199/200
+2025-01-05 11:22:40,209 - name_generator - INFO - Epoch 199 - Train Loss: 1.5214, Train Acc: 0.3617, Val Loss: 1.6383, Val Acc: 0.3414
+2025-01-05 11:22:40,209 - name_generator - INFO - 
+Epoch 200/200
+2025-01-05 11:22:41,582 - name_generator - INFO - 模型已保存到: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:22:41,583 - name_generator - INFO - 保存最佳模型
+2025-01-05 11:22:41,583 - name_generator - INFO - Epoch 200 - Train Loss: 1.5150, Train Acc: 0.3613, Val Loss: 1.6352, Val Acc: 0.3377
+2025-01-05 11:22:41,583 - name_generator - INFO - 训练完成!
+2025-01-05 11:22:41,583 - name_generator - INFO - 
+评估生成质量...
+2025-01-05 11:22:42,620 - name_generator - INFO - 
+生成样本示例:
+2025-01-05 11:22:42,620 - name_generator - INFO - 使用1个字符生成:
+2025-01-05 11:22:42,620 - name_generator - INFO - 参考: madelynn -> 生成: miavob
+2025-01-05 11:22:42,620 - name_generator - INFO - 参考: chrissie -> 生成: colak
+2025-01-05 11:22:42,620 - name_generator - INFO - 参考: everly -> 生成: ekertterb
+2025-01-05 11:22:42,620 - name_generator - INFO - 
+使用2个字符生成:
+2025-01-05 11:22:42,620 - name_generator - INFO - 参考: madelynn -> 生成: marossels
+2025-01-05 11:22:42,620 - name_generator - INFO - 参考: chrissie -> 生成: chtumloh
+2025-01-05 11:22:42,620 - name_generator - INFO - 参考: everly -> 生成: evenroyl
+2025-01-05 11:22:42,620 - name_generator - INFO - bleu1_1char: 0.3190
+2025-01-05 11:22:42,620 - name_generator - INFO - bleu2_1char: 0.0906
+2025-01-05 11:22:42,620 - name_generator - INFO - bleu3_1char: 0.0535
+2025-01-05 11:22:42,621 - name_generator - INFO - bleu4_1char: 0.0457
+2025-01-05 11:22:42,621 - name_generator - INFO - bleu1_2char: 0.3876
+2025-01-05 11:22:42,621 - name_generator - INFO - bleu2_2char: 0.2595
+2025-01-05 11:22:42,621 - name_generator - INFO - bleu3_2char: 0.1155
+2025-01-05 11:22:42,621 - name_generator - INFO - bleu4_2char: 0.0804
+2025-01-05 11:22:42,621 - name_generator - INFO - 
+生成训练过程可视化...
+2025-01-05 11:22:42,949 - name_generator - INFO - 
+生成数据分布可视化...
+2025-01-05 11:22:43,654 - name_generator - INFO - 
+实验目录已保存: results/20250105_111805
+2025-01-05 11:24:32,355 - name_generator - INFO - 加载已训练的reverse模型...
+2025-01-05 11:24:34,627 - name_generator - INFO - 初始化训练器 - 模型参数数量: 27164
+2025-01-05 11:24:34,637 - name_generator - INFO - 加载模型从: results/20250105_111805/models/name_rnn_reverse.pth
+2025-01-05 11:24:34,637 - name_generator - INFO - 
+生成参数:
+2025-01-05 11:24:34,637 - name_generator - INFO - model_type: reverse
+2025-01-05 11:24:34,637 - name_generator - INFO - max_length: 15
+2025-01-05 11:24:34,637 - name_generator - INFO - temperature: 0.5
+2025-01-05 11:24:34,637 - name_generator - INFO - beam_size: 5
+2025-01-05 11:24:34,637 - name_generator - INFO - top_k: 10
+2025-01-05 11:24:34,637 - name_generator - INFO - top_p: 0.9
+2025-01-05 11:24:39,012 - name_generator - INFO - 从结尾生成名字（结尾序列: e）...
+2025-01-05 11:24:40,834 - name_generator - INFO - 生成的名字: fencholke
+2025-01-05 11:24:40,835 - name_generator - INFO - 生成过程（反向）: eklohcnef
+2025-01-05 11:25:06,323 - name_generator - INFO - 使用不同策略生成名字（结尾序列: ke）...
+2025-01-05 11:25:06,414 - name_generator - INFO - Greedy: carlelke
+2025-01-05 11:25:06,414 - name_generator - INFO - Greedy（生成过程）: eklelrac
+2025-01-05 11:25:06,414 - name_generator - INFO - Temperature: kerricke
+2025-01-05 11:25:06,414 - name_generator - INFO - Temperature（生成过程）: ekcirrek
+2025-01-05 11:25:06,414 - name_generator - INFO - Beam Search: .briske
+2025-01-05 11:25:06,414 - name_generator - INFO - Beam Search（生成过程）: eksirb.
+2025-01-05 11:25:06,414 - name_generator - INFO - Top-K: tactilike
+2025-01-05 11:25:06,414 - name_generator - INFO - Top-K（生成过程）: ekilitcat
+2025-01-05 11:25:06,414 - name_generator - INFO - Top-P: rongerke
+2025-01-05 11:25:06,414 - name_generator - INFO - Top-P（生成过程）: ekregnor
